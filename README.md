@@ -12,14 +12,20 @@ Tous les scrips doivent contenir une entête :
 - `Fichiers SQL` : 
 ```SQL
 /*
-    .SYNOPSIS
-    .DESCRIPTION
-    .REQUIREMENTS
-    .NOTES
-        Nom du fichier :
-        Auteur : 
-        Date   : 
-        Version: 
+	.DESCRIPTION
+		Règles de contrôle :
+		Environnement :
+	.PREREQUISITES
+	.NOTE
+		Fichier :
+		Auteur  :
+        Version :
+	.HISTORIQUE
+		+---------+------------+--------------+------------------------------------------+
+		| Version | Date       | Auteur       | Modifications                            |
+		+---------+------------+--------------+------------------------------------------+
+		| 1.0     |            |              | Création du script                       |
+		+---------+------------+--------------+------------------------------------------+
 */
 ```
 - `Fichiers PS` : 
@@ -33,8 +39,16 @@ Tous les scrips doivent contenir une entête :
     .INPUTS 
     .EXAMPLE
     .NOTES 
-        Nom du fichier :
-        Auteur : 
-        Date   : 
-        Version: 
+        Prérequis :
+        Fichier :
+        Version : 
+        Historique :
+        +---------+------------+--------------+------------------------------------------+
+		| Version | Date       | Auteur       | Modifications                            |
+		+---------+------------+--------------+------------------------------------------+
+		| 1.0     |            |              | Création du script                       |
+		+---------+------------+--------------+------------------------------------------+
 #>
+```
+*Auteur : CHELAN Andy*
+*Dernière mise à jour : 02/04/2026*
