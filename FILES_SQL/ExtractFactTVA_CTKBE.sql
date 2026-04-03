@@ -295,7 +295,7 @@ WHERE NumLigne = 3
 SELECT 
     F.Noticket                          AS 'Numéro Facture',
     F.Date_Facture                      AS 'Date Facture',
-    F.Date_Facture                      AS 'Date Vente',
+    F.DateVente                         AS 'Date Vente',
     F.IdMag                             AS 'N° Magasin',
     F.Magasin                           AS 'Nom Magasin',
     ISNULL(F.Civilite,'')               AS 'Civilité',
